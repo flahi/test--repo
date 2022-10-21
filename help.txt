@@ -1,0 +1,6 @@
+git clone ssh
+git status
+git add (. for all/ file name for one)
+git commit -m ""
+git log
+git push origin main
