@@ -1,4 +1,11 @@
 git clone ssh
+git remote -v
+	forked repos are not synced with original repo.
+	So to sync with the version, we use
+	git remote add upstream ssh/url of original repo
+	git fetch upstream 
+	Fetches changes and stores them in another folder
+	git merge upstream/main
 git status
 git add (. for all/ file name for one)
 git commit -m ""
