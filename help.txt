@@ -6,8 +6,12 @@ git remote -v
 	git fetch upstream 
 	Fetches changes and stores them in another folder
 	git merge upstream/main
+	The fetch and merge can be combined using
+	git pull upstream main
 git status
 git add (. for all/ file name for one)
 git commit -m ""
 git log
 git push origin main
+git checkout -b BRANCH_NAME (create new branch like main or master. remove -b to change to existing branch)
+git branch
